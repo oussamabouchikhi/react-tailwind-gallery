@@ -28,12 +28,12 @@ function App() {
   return (
     <main className={`${darkTheme && 'dark-mode'}`} >
       <Navbar toggleTheme={toggleTheme}/>
-      <div className="container mx-auto pb-8">
+      <div className="container my-12 mx-auto px-4 md:px-12">
         <ImageSearch searchText={(text) => setTerm(text)} />
 
         {!isLoading && images.length === 0 && <h1 className="text-5xl text-center mx-auto mt-32">No Images Found</h1> }
 
-        {isLoading ? <h1 className="text-6xl text-center mx-auto mt-32">Loading...</h1> : <div className="grid grid-cols-3 gap-4">
+        {isLoading ? <h1 className="text-6xl text-center mx-auto mt-32">Loading...</h1> : <div className="flex flex-wrap -mx-1 lg:-mx-4">
           {images.map(image => (
             <ImageCard key={image.id} image={image} />
           ))}
