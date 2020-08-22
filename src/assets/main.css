@@ -605,6 +605,65 @@ video {
   }
 }
 
+.search-border {
+  background-color: #f7fafc;
+}
+
+.card .image {
+  height: 250px;
+  transition: all 2s ease-in;
+}
+
+.card .image:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+}
+
+/* ===== DARK MODE ===== */
+
+.dark-mode {
+  background-color: #121212;
+}
+
+.dark-mode .search-border,
+.dark-mode .search-text {
+  color: #BB86FC;
+}
+
+.dark-mode .search-border {
+  background-color: #262626;
+}
+
+.dark-mode header,
+.dark-mode .card {
+  background-color: #262626;
+}
+
+.dark-mode header,
+.dark-mode .card-title {
+  color: #BB86FC;
+}
+
+.dark-mode .info li {
+  color: #DDDDDD;
+  /* color: #868686; */
+}
+
+.dark-mode .tag,
+.dark-mode .search-btn {
+  background-color: #BB86FC;
+  color: #000;
+}
+
+/* .dark-mode .navbar {
+  color: white;
+  background-color: #0c0c0d;
+} */
+
 .space-y-0 > :not(template) ~ :not(template) {
   --space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--space-y-reverse)));
