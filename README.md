@@ -8,11 +8,22 @@ Photo Gallery made using Tailwindcss & React
 - React
 - Tailwindcss
 
+## Todo :pencil:
+* [ ] Add a loading spinner
+* [ ] Improve Grid system on Mobile view
+
 ## Usage 📋
 
 <details open>
 <summary>1. Server Setup</summary>
+
 ```bash
+# CLone this repo
+~ git clone https://github.com/oussamabouchikhi/react-tailwind-gallery.git
+
+# cd into it
+~ cd react-tailwind-gallery
+
 # Install dependencies
 ~ npm install
 
@@ -25,24 +36,14 @@ Photo Gallery made using Tailwindcss & React
 </details>
 
 <details>
-
 <summary>2. Pixabay Setup</summary>
+
 - First Create an account on `Pixabay` then you can find your api key [here](https://pixabay.com/api/docs/)
 - Copy `example.env` to `.env`
 - Copy your api key in `.env`
 ```env
 REACT_APP_PIXABAY_API_KEY=YOUR_API_KEY_GOES_HERE
 ```
-</details>
-
-<details>
-
-<summary>Tailwindcss Setup</summary>
-
-- You can read this amazing article about setting up tailwind tith React if you want to build this app from scratch
-
-[Tailwinds setup](https://www.smashingmagazine.com/2020/02/tailwindcss-react-project/)
-
 </details>
 
 ## Contributing 💡
