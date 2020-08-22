@@ -28,7 +28,7 @@ function App() {
   return (
     <main className={`${darkTheme && 'dark-mode'}`} >
       <Navbar toggleTheme={toggleTheme}/>
-      <div className="container my-12 mx-auto px-4 md:px-12">
+      <div className="container mx-auto px-4 md:px-12">
         <ImageSearch searchText={(text) => setTerm(text)} />
 
         {!isLoading && images.length === 0 && <h1 className="text-5xl text-center mx-auto mt-32">No Images Found</h1> }

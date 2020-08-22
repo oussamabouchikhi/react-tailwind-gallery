@@ -4,7 +4,7 @@ const Navbar = ({ toggleTheme }) => {
 
   return (
     <header className='bg-gray-100'>
-        <div class="container mx-auto py-3">
+        <div class="container mx-auto py-3 px-4 md:px-12">
             <div class="flex items-center justify-between">
                 <div class="text-purple-500 md:text-center text-2xl font-semibold">
                     Gallery.jpg
