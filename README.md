@@ -9,8 +9,8 @@ Photo Gallery made using Tailwindcss & React
 - Tailwindcss
 
 ## Todo :pencil:
-* [ ] Add a loading spinner
-* [ ] Improve Grid system on Mobile view
+
+- [ ] Add a loading spinner
 
 ## Usage 📋
 
